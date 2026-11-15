@@ -52,12 +52,12 @@ export const Problem: React.FC = () => {
       <div className="max-w-7xl wide:max-w-wide mx-auto px-5 sm:px-6 lg:px-8 wide:px-16 relative z-10 w-full">
         
         {/* Section Header - Bold & Clean (Depict Reference Style) */}
-        <div className="text-center max-w-4xl mx-auto mb-16 sm:mb-20 lg:mb-24">
-          <h2 className="text-3xl sm:text-4xl lg:text-[3.25rem] wide:text-[4.5rem] tracking-tight flex flex-col items-center gap-2 sm:gap-3 lg:gap-4">
-            <span className="text-white font-bold leading-none">
+        <div className="text-center max-w-4xl mx-auto mb-16 sm:mb-20 lg:mb-24 px-2 sm:px-4">
+          <h2 className="tracking-tight flex flex-col items-center gap-2.5 sm:gap-3 lg:gap-4">
+            <span className="text-white font-bold text-[1.65rem] xs:text-3xl sm:text-4xl lg:text-[3.25rem] wide:text-[4.5rem] leading-none">
               What's your biggest
             </span>
-            <span className="text-[#BDA047] font-light italic leading-none">
+            <span className="text-[#BDA047] font-light italic text-[1.35rem] xs:text-[1.65rem] sm:text-4xl lg:text-[3.25rem] wide:text-[4.5rem] leading-none whitespace-nowrap pt-0.5 sm:pt-1">
               profitability bottleneck?
             </span>
           </h2>

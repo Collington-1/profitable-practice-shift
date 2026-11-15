@@ -92,16 +92,11 @@ export const Deliverables: React.FC<DeliverablesProps> = ({ onEnrolClick }) => {
 
         {/* 7 Replicated Photo Cards Grid: Consistent, Clean, and Perfectly Aligned across all screens */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 sm:gap-6 wide:gap-8 items-stretch max-w-6xl wide:max-w-7xl mx-auto">
-          {suiteCards.map((item, idx) => {
-            // On desktop (3 cols), card 7 is centered in column 2; on tablet (2 cols), card 7 spans both columns centered
-            const placementClasses = idx === 6
-              ? 'sm:col-span-2 lg:col-span-1 lg:col-start-2 sm:max-w-xl sm:mx-auto lg:max-w-none w-full'
-              : 'w-full';
-
+          {suiteCards.map((item) => {
             return (
               <div
                 key={item.number}
-                className={`relative rounded-[28px] overflow-hidden shadow-xl border border-white/10 hover:border-[#BDA047]/50 hover:-translate-y-2 hover:shadow-2xl hover:shadow-[#BDA047]/10 transition-all duration-300 h-[270px] xs:h-[290px] sm:h-[310px] lg:h-[330px] wide:h-[400px] bg-[#141414] group flex flex-col justify-end p-5 sm:p-6 text-left ${placementClasses}`}
+                className="relative rounded-[28px] overflow-hidden shadow-xl border border-white/10 hover:border-[#BDA047]/50 hover:-translate-y-2 hover:shadow-2xl hover:shadow-[#BDA047]/10 transition-all duration-300 h-[270px] xs:h-[290px] sm:h-[310px] lg:h-[330px] wide:h-[400px] bg-[#141414] group flex flex-col justify-end p-5 sm:p-6 text-left w-full"
               >
                 {/* Background Photo with Smooth Hover Zoom */}
                 <img 
@@ -120,14 +115,8 @@ export const Deliverables: React.FC<DeliverablesProps> = ({ onEnrolClick }) => {
                 {/* Dark Gradient Overlay for Maximum Text Contrast */}
                 <div className="absolute inset-0 bg-gradient-to-t from-black/95 via-black/60 to-transparent pointer-events-none" />
 
-                {/* Card Content (Overlaid cleanly at the bottom) */}
+                {/* Card Content (Overlaid cleanly at the bottom without CARD numbering badge) */}
                 <div className="relative z-10 space-y-1.5">
-                  <div className="inline-flex items-center gap-2">
-                    <span className="px-2.5 py-0.5 rounded-full bg-[#BDA047]/20 border border-[#BDA047]/30 text-[#BDA047] text-[10px] sm:text-[11px] font-bold uppercase tracking-wider">
-                      Card {item.number}
-                    </span>
-                  </div>
-
                   <h3 className="text-lg sm:text-xl wide:text-2xl font-bold text-white tracking-tight leading-snug">
                     {item.title}
                   </h3>
