@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Navbar } from './components/Navbar';
 import { Hero } from './components/Hero';
+import { VideoSection } from './components/VideoSection';
 import { Problem } from './components/Problem';
 import { Methodology } from './components/Methodology';
 import { Founder } from './components/Founder';
@@ -41,6 +42,9 @@ export function App() {
       <main className="flex-grow w-full overflow-x-hidden">
         {/* 01 — Hero / Above the Fold */}
         <Hero onEnrolClick={handleEnrolClick} />
+
+        {/* Video Feature — Dr. Amy Traore-Shumbusho */}
+        <VideoSection />
 
         {/* 02 — The Problem: The Busy-Practice Profitability Gap™ */}
         <Problem />
