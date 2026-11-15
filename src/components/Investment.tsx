@@ -47,10 +47,12 @@ export const Investment: React.FC<InvestmentProps> = ({ onSelectPlan }) => {
                     : 'bg-[#121212] border-white/10 hover:border-brand-gold/40 hover:bg-[#151515] hover:-translate-y-2 hover:shadow-xl'
                 }`}
               >
-                {/* Featured Badge */}
+                {/* Featured Badge - Centered Without Animations */}
                 {plan.badge && (
-                  <div className="absolute -top-3.5 left-1/2 -translate-x-1/2 px-4 py-1 rounded-full bg-brand-gold text-brand-black text-xs font-bold uppercase tracking-wider shadow-md whitespace-nowrap animate-pulse-glow">
-                    {plan.badge}
+                  <div className="absolute -top-3.5 inset-x-0 flex justify-center pointer-events-none">
+                    <span className="px-4 py-1 rounded-full bg-brand-gold text-brand-black text-xs font-bold uppercase tracking-wider shadow-md whitespace-nowrap">
+                      {plan.badge}
+                    </span>
                   </div>
                 )}
 
