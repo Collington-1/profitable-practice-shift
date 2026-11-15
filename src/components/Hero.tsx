@@ -81,18 +81,18 @@ export const Hero: React.FC<HeroProps> = ({ onEnrolClick }) => {
           {/* Right Column: Circular Portrait (Dr Amy.jpg.jpeg) + Structured Name Underneath */}
           <div className="lg:col-span-5 flex flex-col items-center lg:items-end justify-center mt-6 lg:mt-0">
             
-            {/* Circular Image Container */}
-            <div className="relative w-60 h-60 xs:w-68 xs:h-68 sm:w-80 sm:h-80 md:w-96 md:h-96 lg:w-[400px] lg:h-[400px] xl:w-[430px] xl:h-[430px] wide:w-[560px] wide:h-[560px]">
+            {/* Circular Image Container with Smooth Luxury Floating Animation */}
+            <div className="relative w-60 h-60 xs:w-68 xs:h-68 sm:w-80 sm:h-80 md:w-96 md:h-96 lg:w-[400px] lg:h-[400px] xl:w-[430px] xl:h-[430px] wide:w-[560px] wide:h-[560px] animate-float">
               {/* Outer decorative ring */}
               <div className="absolute inset-0 rounded-full border border-white/10 scale-105 pointer-events-none" />
-              <div className="absolute inset-0 rounded-full border border-brand-gold/30 scale-[1.02] pointer-events-none" />
+              <div className="absolute inset-0 rounded-full border border-brand-gold/40 scale-[1.03] pointer-events-none animate-pulse-glow" />
               
               {/* Image Circle with Dr Amy.jpg.jpeg showing bold and clear */}
               <div className="w-full h-full rounded-full overflow-hidden border-2 border-brand-gold/50 shadow-2xl bg-[#141414] relative">
                 <img
                   src="/assets/dr-amy-hero.jpg"
                   alt="Dr Amy Traore-Shumbusho"
-                  className="w-full h-full object-cover object-[center_18%] scale-105 hover:scale-110 transition-transform duration-700"
+                  className="w-full h-full object-cover object-[center_18%] scale-105 hover:scale-110 transition-transform duration-700 ease-out"
                   onError={(e) => {
                     const target = e.target as HTMLImageElement;
                     if (!target.src.includes('Dr Amy.jpg.jpeg')) {

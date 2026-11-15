@@ -43,13 +43,13 @@ export const Investment: React.FC<InvestmentProps> = ({ onSelectPlan }) => {
                 key={plan.id}
                 className={`rounded-3xl p-6 sm:p-7 md:p-5 lg:p-9 wide:p-12 flex flex-col justify-between transition-all duration-300 relative border ${
                   isFeatured
-                    ? 'bg-[#181818] border-brand-gold shadow-2xl md:-translate-y-2 z-10 ring-1 ring-brand-gold/30'
-                    : 'bg-[#121212] border-white/10 hover:border-white/20 hover:bg-[#151515]'
+                    ? 'bg-[#181818] border-brand-gold shadow-2xl md:-translate-y-2 z-10 ring-1 ring-brand-gold/30 hover:-translate-y-3.5 hover:shadow-brand-gold/20'
+                    : 'bg-[#121212] border-white/10 hover:border-brand-gold/40 hover:bg-[#151515] hover:-translate-y-2 hover:shadow-xl'
                 }`}
               >
                 {/* Featured Badge */}
                 {plan.badge && (
-                  <div className="absolute -top-3.5 left-1/2 -translate-x-1/2 px-4 py-1 rounded-full bg-brand-gold text-brand-black text-xs font-bold uppercase tracking-wider shadow-md whitespace-nowrap">
+                  <div className="absolute -top-3.5 left-1/2 -translate-x-1/2 px-4 py-1 rounded-full bg-brand-gold text-brand-black text-xs font-bold uppercase tracking-wider shadow-md whitespace-nowrap animate-pulse-glow">
                     {plan.badge}
                   </div>
                 )}

@@ -60,7 +60,7 @@ export const Methodology: React.FC<MethodologyProps> = ({ onEnrolClick }) => {
       timeline: "Weeks 4–5",
       shortSummary: "Make diagnosis, options and investment clear; present treatment value confidently.",
       focus: "5-Question Framework",
-      image: "/assets/dr-amy-speaking.jpg",
+      image: "/assets/PHOTO1.png",
       clinicalReality: PROGRAMME_DATA.fiveShifts[2].clinicalReality,
       theShift: PROGRAMME_DATA.fiveShifts[2].theShift,
       takeaways: PROGRAMME_DATA.fiveShifts[2].takeaways,
@@ -103,6 +103,7 @@ export const Methodology: React.FC<MethodologyProps> = ({ onEnrolClick }) => {
   const [selectedShift, setSelectedShift] = useState<ShiftCardItem | null>(null);
   const [touchStartX, setTouchStartX] = useState<number | null>(null);
   const [touchEndX, setTouchEndX] = useState<number | null>(null);
+  const [isPaused, setIsPaused] = useState<boolean>(false);
   const containerRef = useRef<HTMLDivElement>(null);
 
   // Active base shift (0 to 4)
@@ -117,6 +118,17 @@ export const Methodology: React.FC<MethodologyProps> = ({ onEnrolClick }) => {
   const handlePrev = useCallback(() => {
     setVirtualIndex((prev) => prev - 1);
   }, []);
+
+  // Continuous smooth auto-swipe every 3.8s (pauses on hover, touch, or when deep-dive modal is active)
+  useEffect(() => {
+    if (isPaused || selectedShift) return;
+
+    const timer = setInterval(() => {
+      handleNext();
+    }, 3800);
+
+    return () => clearInterval(timer);
+  }, [isPaused, selectedShift, handleNext]);
 
   // Jump to specific dot smoothly
   const handleDotClick = (dotIdx: number) => {
@@ -208,10 +220,18 @@ export const Methodology: React.FC<MethodologyProps> = ({ onEnrolClick }) => {
         {/* 5-Card Infinite Repeating Perspective Carousel (Always Full, Seamless Infinite Loop) */}
         <div 
           ref={containerRef}
+          onMouseEnter={() => setIsPaused(true)}
+          onMouseLeave={() => setIsPaused(false)}
           className="relative w-full overflow-hidden py-3 sm:py-6 px-2 sm:px-6 lg:px-8 flex items-center justify-center min-h-[460px] sm:min-h-[520px] lg:min-h-[580px] wide:min-h-[660px]"
-          onTouchStart={handleTouchStart}
+          onTouchStart={(e) => {
+            setIsPaused(true);
+            handleTouchStart(e);
+          }}
           onTouchMove={handleTouchMove}
-          onTouchEnd={handleTouchEnd}
+          onTouchEnd={() => {
+            setIsPaused(false);
+            handleTouchEnd();
+          }}
         >
           <div className="relative w-full max-w-7xl wide:max-w-wide mx-auto flex items-center justify-center h-[420px] sm:h-[480px] lg:h-[540px] wide:h-[620px]">
             {extendedShifts.map((shift, idx) => {
@@ -278,8 +298,8 @@ export const Methodology: React.FC<MethodologyProps> = ({ onEnrolClick }) => {
                     transform: `translate3d(calc(${dist} * clamp(112px, 13vw, 195px)), ${translateY}px, 0) scale(${scale})`,
                     zIndex,
                     opacity,
-                    // Silky smooth cubic-bezier easing with hardware acceleration
-                    transition: 'transform 550ms cubic-bezier(0.25, 1, 0.5, 1), box-shadow 550ms ease, opacity 400ms ease',
+                    // Frictionless luxury glide with GPU hardware acceleration
+                    transition: 'transform 420ms cubic-bezier(0.2, 0.9, 0.3, 1), box-shadow 420ms ease, opacity 350ms ease',
                     willChange: 'transform',
                   }}
                   className={`absolute w-[220px] xs:w-[240px] sm:w-[275px] lg:w-[295px] xl:w-[305px] wide:w-[360px] h-[385px] xs:h-[405px] sm:h-[465px] lg:h-[495px] wide:h-[580px] rounded-[24px] sm:rounded-[28px] overflow-hidden cursor-pointer select-none group bg-[#161616] border border-white/20 ${
@@ -294,11 +314,12 @@ export const Methodology: React.FC<MethodologyProps> = ({ onEnrolClick }) => {
                   <img 
                     src={shift.image}
                     alt={`${shift.number} ${shift.title}`}
+                    decoding="async"
                     className="w-full h-full object-cover select-none transition-transform duration-700 ease-out group-hover:scale-105"
                     onError={(e) => {
                       const target = e.target as HTMLImageElement;
-                      if (!target.src.includes('practice-interior.jpg')) {
-                        target.src = '/assets/practice-interior.jpg';
+                      if (!target.src.includes('PHOTO1.png')) {
+                        target.src = '/assets/PHOTO1.png';
                       }
                     }}
                   />

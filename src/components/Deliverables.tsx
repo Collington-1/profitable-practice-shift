@@ -42,7 +42,7 @@ export const Deliverables: React.FC<DeliverablesProps> = ({ onEnrolClick }) => {
           {/* ================= COLUMN 1 (Stacked Cards: Total ~390px) ================= */}
           <div className="flex flex-col gap-5 h-full justify-between lg:col-span-1">
             {/* Top Tile: Arched Photo Card */}
-            <div className="relative rounded-[28px] overflow-hidden shadow-xl border border-white/10 h-[215px] wide:h-[250px] bg-[#141414] group">
+            <div className="relative rounded-[28px] overflow-hidden shadow-xl border border-white/10 hover:border-[#BDA047]/40 hover:-translate-y-1 transition-all duration-300 h-[215px] wide:h-[250px] bg-[#141414] group">
               <img 
                 src="/assets/dr-amy-speaking.jpg" 
                 alt="Clinical Mastery" 
@@ -60,7 +60,7 @@ export const Deliverables: React.FC<DeliverablesProps> = ({ onEnrolClick }) => {
             </div>
 
             {/* Bottom Tile: Metric Card */}
-            <div className="rounded-[24px] p-5 wide:p-6 bg-[#141414] text-white border border-white/10 shadow-xl h-[155px] wide:h-[180px] flex flex-col justify-center text-left">
+            <div className="rounded-[24px] p-5 wide:p-6 bg-[#141414] text-white border border-white/10 hover:border-[#BDA047]/40 hover:-translate-y-1 transition-all duration-300 shadow-xl h-[155px] wide:h-[180px] flex flex-col justify-center text-left">
               <span className="text-3xl wide:text-4xl font-bold text-[#BDA047] tracking-tight">
                 8 Weeks
               </span>
@@ -71,7 +71,7 @@ export const Deliverables: React.FC<DeliverablesProps> = ({ onEnrolClick }) => {
           </div>
 
           {/* ================= COLUMN 2 (Tall Slender Card: ~440px) ================= */}
-          <div className="relative rounded-t-[44px] rounded-b-[28px] overflow-hidden shadow-2xl border border-white/10 h-[380px] sm:h-[440px] wide:h-[490px] bg-[#141414] flex flex-col justify-end p-5 wide:p-6 text-left group lg:col-span-1">
+          <div className="relative rounded-t-[44px] rounded-b-[28px] overflow-hidden shadow-2xl border border-white/10 hover:border-[#BDA047]/40 hover:-translate-y-1.5 transition-all duration-300 h-[380px] sm:h-[440px] wide:h-[490px] bg-[#141414] flex flex-col justify-end p-5 wide:p-6 text-left group lg:col-span-1">
             <img 
               src="/assets/IMG_1075.JPG.jpeg" 
               alt="Practice Interior" 
@@ -97,7 +97,7 @@ export const Deliverables: React.FC<DeliverablesProps> = ({ onEnrolClick }) => {
 
           {/* ================= COLUMN 3 (Center Shorter Accent Card: ~360px) ================= */}
           {/* On tablet portrait (sm: to lg:), spans 2 columns centered */}
-          <div className="sm:col-span-2 lg:col-span-1 sm:max-w-md sm:mx-auto lg:max-w-none w-full rounded-[30px] p-6 wide:p-7 bg-[#181611] border border-[#BDA047]/35 shadow-2xl flex flex-col justify-between h-[340px] sm:h-[360px] wide:h-[410px] text-left relative overflow-hidden group">
+          <div className="sm:col-span-2 lg:col-span-1 sm:max-w-md sm:mx-auto lg:max-w-none w-full rounded-[30px] p-6 wide:p-7 bg-[#181611] border border-[#BDA047]/35 hover:border-[#BDA047]/60 hover:-translate-y-2 hover:shadow-2xl hover:shadow-[#BDA047]/15 transition-all duration-300 flex flex-col justify-between h-[340px] sm:h-[360px] wide:h-[410px] text-left relative overflow-hidden group">
             <div className="absolute inset-0 bg-gradient-to-b from-[#BDA047]/10 via-transparent to-transparent pointer-events-none" />
             
             <div className="relative z-10">
@@ -123,7 +123,7 @@ export const Deliverables: React.FC<DeliverablesProps> = ({ onEnrolClick }) => {
           </div>
 
           {/* ================= COLUMN 4 (Tall Slender Card: ~440px) ================= */}
-          <div className="relative rounded-t-[44px] rounded-b-[28px] overflow-hidden shadow-2xl border border-white/10 h-[380px] sm:h-[440px] wide:h-[490px] bg-[#141414] flex flex-col justify-end p-5 wide:p-6 text-left group lg:col-span-1">
+          <div className="relative rounded-t-[44px] rounded-b-[28px] overflow-hidden shadow-2xl border border-white/10 hover:border-[#BDA047]/40 hover:-translate-y-1.5 transition-all duration-300 h-[380px] sm:h-[440px] wide:h-[490px] bg-[#141414] flex flex-col justify-end p-5 wide:p-6 text-left group lg:col-span-1">
             <img 
               src="/assets/practice-clinic.jpg" 
               alt="Practice Clinic" 
@@ -150,7 +150,7 @@ export const Deliverables: React.FC<DeliverablesProps> = ({ onEnrolClick }) => {
           {/* ================= COLUMN 5 (Stacked Cards: Total ~390px) ================= */}
           <div className="flex flex-col gap-5 h-full justify-between lg:col-span-1">
             {/* Top Tile: Statement Card with Graphic Swirl */}
-            <div className="rounded-[28px] p-5 wide:p-6 bg-[#141414] text-white border border-white/10 shadow-xl h-[215px] wide:h-[250px] flex flex-col justify-between text-left relative overflow-hidden">
+            <div className="rounded-[28px] p-5 wide:p-6 bg-[#141414] text-white border border-white/10 hover:border-[#BDA047]/40 hover:-translate-y-1 transition-all duration-300 shadow-xl h-[215px] wide:h-[250px] flex flex-col justify-between text-left relative overflow-hidden">
               <div>
                 <p className="text-[10px] wide:text-xs uppercase tracking-[0.22em] font-semibold text-[#BDA047]">
                   Systems · Margins
@@ -172,7 +172,7 @@ export const Deliverables: React.FC<DeliverablesProps> = ({ onEnrolClick }) => {
             </div>
 
             {/* Bottom Tile: Photo Card */}
-            <div className="relative rounded-[24px] overflow-hidden shadow-xl border border-white/10 h-[155px] wide:h-[180px] bg-[#141414] group">
+            <div className="relative rounded-[24px] overflow-hidden shadow-xl border border-white/10 hover:border-[#BDA047]/40 hover:-translate-y-1 transition-all duration-300 h-[155px] wide:h-[180px] bg-[#141414] group">
               <img 
                 src="/assets/632313048_18531807367071192_8972057038438131893_n.jpg" 
                 alt="Acceptance-to-Start Tracking" 

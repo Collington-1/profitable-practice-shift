@@ -54,7 +54,26 @@ export default {
       boxShadow: {
         'gold-glow': '0 0 35px -5px rgba(197, 166, 74, 0.18)',
         'subtle': '0 4px 20px -2px rgba(0, 0, 0, 0.3)',
-      }
+      },
+      keyframes: {
+        float: {
+          '0%, 100%': { transform: 'translateY(0px)' },
+          '50%': { transform: 'translateY(-6px)' },
+        },
+        'pulse-glow': {
+          '0%, 100%': { opacity: '0.4', transform: 'scale(1)' },
+          '50%': { opacity: '0.8', transform: 'scale(1.04)' },
+        },
+        fadeIn: {
+          '0%': { opacity: '0', transform: 'translateY(8px)' },
+          '100%': { opacity: '1', transform: 'translateY(0)' },
+        },
+      },
+      animation: {
+        float: 'float 5s ease-in-out infinite',
+        'pulse-glow': 'pulse-glow 6s ease-in-out infinite',
+        fadeIn: 'fadeIn 0.35s cubic-bezier(0.16, 1, 0.3, 1) forwards',
+      },
     },
   },
   plugins: [],

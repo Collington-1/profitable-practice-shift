@@ -114,8 +114,8 @@ export const Journey: React.FC<JourneyProps> = () => {
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent pointer-events-none" />
 
-              {/* Floating Badge at Bottom (Image 1 Style) */}
-              <div className="absolute bottom-4 sm:bottom-5 left-4 sm:left-5 right-4 sm:right-5 bg-white/95 backdrop-blur-md px-4 sm:px-5 py-3 sm:py-3.5 rounded-2xl shadow-xl border border-stone-200/80 flex items-center gap-3.5">
+              {/* Floating Badge at Bottom (Image 1 Style with Smooth Float Animation) */}
+              <div className="absolute bottom-4 sm:bottom-5 left-4 sm:left-5 right-4 sm:right-5 bg-white/95 backdrop-blur-md px-4 sm:px-5 py-3 sm:py-3.5 rounded-2xl shadow-xl border border-stone-200/80 flex items-center gap-3.5 animate-float">
                 <div className="w-10 h-10 rounded-full bg-[#BDA047]/15 text-[#BDA047] flex items-center justify-center shrink-0">
                   <Sparkles className="w-5 h-5" />
                 </div>
