@@ -52,9 +52,10 @@ export const Hero: React.FC<HeroProps> = ({ onEnrolClick }) => {
               <span className="text-stone-300 font-light">as it should be?</span>
             </h1>
 
-            {/* Simple & Smart Subtitle (Replaced long paragraph as requested) */}
-            <p className="text-lg sm:text-2xl wide:text-3xl text-stone-200 font-light tracking-wide">
-              8-Week Cohort Launches <span className="text-brand-gold font-medium">Dec 2026</span>
+            {/* Simple & Smart Subtitle */}
+            <p className="text-lg sm:text-2xl wide:text-3xl text-stone-200 font-light tracking-wide leading-relaxed">
+              8-Week Profitability Coaching for Dental Clinic owners. <br />
+              Launches <span className="text-brand-gold font-medium">Dec 2026</span>
             </p>
 
             {/* Action Buttons */}
