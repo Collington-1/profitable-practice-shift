@@ -1,0 +1,134 @@
+{
+  "pages": [
+    {
+      "text": "S E A M L E S S\nS E A M L E S S G R A N D F I N A L E 2 0 2 6 · L A G O S\nYour diary is full.\nIs your practice as profitable\nas it should be?\nStronger practice economics — without simply working more hours\nor chasing more patients.\nT H E P RO F I TA B L E P R AC T I C E S H I F T ™\nDr Amy Traore-Shumbusho",
+      "num": 1
+    },
+    {
+      "text": "S E A M L E S S \tT H E P R O F I TA B L E P R A C T I C E S H I F T ™\nB E F O R E W E B E G I N\nHow many years have you invested in becoming a\nbetter dentist?\nCourses \tAdvanced training \tEquipment \tTeams \tReputation\nFull diary. Trusted by patients. Respectable revenue.\n2",
+      "num": 2
+    },
+    {
+      "text": "S E A M L E S S \tT H E P R O F I TA B L E P R A C T I C E S H I F T ™\nClinically successful.\nEconomically frustrated.\nIs your practice as economically successful as your clinical career?\n3",
+      "num": 3
+    },
+    {
+      "text": "S E A M L E S S \tT H E P R O F I TA B L E P R A C T I C E S H I F T ™\nThe dentist has evolved.\nThe business model hasn't.\nOne of the most important statements I'll make today.\n4",
+      "num": 4
+    },
+    {
+      "text": "S E A M L E S S \tT H E P R O F I TA B L E P R A C T I C E S H I F T ™\nT H E U S U A L R E F L E X\nWhen the diary is already full, more is not the\nanswer\nMore patients \tMore procedures \tAnother chair \tAnother associate \tAnother clinical day\nPerhaps the answer isn't more dentistry.\nIt's a more economically effective practice around the dentistry you already deliver.\n5",
+      "num": 5
+    },
+    {
+      "text": "S E A M L E S S \tT H E P R O F I TA B L E P R A C T I C E S H I F T ™\nM Y P R O M I S E T O D A Y\nGreat dentistry and strong practice economics can\n— and should — coexist\nW H AT T H I S I S N O T\nSelling unnecessary treatment\nPressuring patients\nW H AT T H I S I S\nClinical excellence \tComprehensive patient\ncare\nEffective communication \tIntelligent business\ndecisions\n6",
+      "num": 6
+    },
+    {
+      "text": "S E A M L E S S \tT H E P R O F I TA B L E P R A C T I C E S H I F T ™\nN — N A M E T H E C O S T L Y G A P\nThe Busy-Practice Profitability Gap™\nT H E G A P\nYour clinical\nexpertise\nEconomic value\ncreated\nYour skills grow.\nYour experience grows.\nYour systems don't grow at the same\nrate.\nThe difference between your clinical expertise and the\neconomic value your practice consistently creates from it.\n7",
+      "num": 7
+    },
+    {
+      "text": "S E A M L E S S \tT H E P R O F I TA B L E P R A C T I C E S H I F T ™\nF O U R D I F F E R E N T P R O B L E M S\n…all given the same prescription\n1\nIsolated procedures where\ncomprehensive\nassessment would fit\n2\nExcellent treatment plans\npatients don't fully\nunderstand\n3\nInterest that stalls\nbetween consultation and\ntreatment start\n4\nRevenue — without\nknowing what each clinical\nhour contributes\n“Let's get more\npatients.”\n8",
+      "num": 8
+    },
+    {
+      "text": "S E A M L E S S \tT H E P R O F I TA B L E P R A C T I C E S H I F T ™\nWould you prescribe the same\ntreatment to every patient —\nbefore a diagnosis?\nSo why prescribe the same growth strategy to every practice?\n9",
+      "num": 9
+    },
+    {
+      "text": "S E A M L E S S \tT H E P R O F I TA B L E P R A C T I C E S H I F T ™\nP R A C T I C E P R O F I T A B I L I T Y Q U I C K C H E C K ™\nWhat's your biggest profitability bottleneck?\nA\nClinical Value Gap\nWe aren't consistently identifying or\nplanning appropriate comprehensive care. B\nCommunication Gap\nPatients don't always understand the value\nand options in our plans.\nC\nPatient Decision Gap\nAppropriate plans stall between\npresentation and treatment start. D\nEconomic Visibility Gap\nWe generate revenue but don't clearly\nunderstand profitability or clinical-time\neconomics.\n10",
+      "num": 10
+    },
+    {
+      "text": "S E A M L E S S \tT H E P R O F I TA B L E P R A C T I C E S H I F T ™\nNot one of these\nis solved by seeing more patients.\nThis is where many experienced dentists get stuck.\n11",
+      "num": 11
+    },
+    {
+      "text": "S E A M L E S S \tT H E P R O F I TA B L E P R A C T I C E S H I F T ™\nT H E C O S T O F S T A Y I N G S T U C K\nThe cost isn't just lost revenue\nWhat happens if your\npractice runs below its\npotential for another 3 to 5\nyears?\nYour income. Your ability to invest. Your family\ntime. Your freedom to reduce clinical hours.\nUnderutilized expertise\nUnnecessary operational friction\nPoor financial visibility\nAdditional clinical hours\nDelayed financial independence\n12",
+      "num": 12
+    },
+    {
+      "text": "S E A M L E S S \tT H E P R O F I TA B L E P R A C T I C E S H I F T ™\nV — M Y D I S C O V E R Y\nClinical excellence doesn't automatically create\ncommercial excellence\nD E N TA L S C H O O L T E A C H E S\nDiagnose\nTreatment-plan\nTreat\n≠\nP R A C T I C E O W N E R S H I P D E M A N D S\nPeople · Systems · Costs\nProductivity · Profitability\nOrthodontics & prosthodontics · Founder, Smile360 Dental Specialists\n13",
+      "num": 13
+    },
+    {
+      "text": "S E A M L E S S \tT H E P R O F I TA B L E P R A C T I C E S H I F T ™\nT H E F R A M E W O R K\nThe Profitable Practice Shift™\n1\nDIAGNOSE\nIdentify where value is\nbeing lost\n2\nELEVATE\nPlan appropriate\ncomprehensive care\n3\nCOMMUNICATE\nMake diagnosis, options\nand investment clear\n4\nCONVERT\nStrengthen\npresentation-to-start\n5\nOPTIMIZE\nImprove the economics\nof existing capacity\nFive shifts that connect clinical excellence with stronger practice economics.\n14",
+      "num": 14
+    },
+    {
+      "text": "S E A M L E S S \tT H E P R O F I TA B L E P R A C T I C E S H I F T ™\nE — S H I F T 1 · D I A G N O S E\nA full diary is not the same as a profitable diary\nDentist A\n4 clinical days · Fully booked\nMeasures success almost entirely by revenue\nin.\nDentist B\n4 clinical days · Fully booked\nMeasures revenue per clinical hour, treatment\nmix, direct cost of delivery — and profit\nretained.\nSame hours. Better visibility. Better decisions.\n15",
+      "num": 15
+    },
+    {
+      "text": "S E A M L E S S \tT H E P R O F I TA B L E P R A C T I C E S H I F T ™\nT H R E E N U M B E R S E V E R Y O W N E R S H O U L D K N O W\nRevenue alone can't tell the whole story\n01\nRevenue per clinical hour\n02\nContribution after direct\ndelivery costs\n03\nActual operating profit\nA bigger fee doesn't automatically mean a bigger profit — lab, materials, specialist time and overhead all\ncount.\n16",
+      "num": 16
+    },
+    {
+      "text": "S E A M L E S S \tT H E P R O F I TA B L E P R A C T I C E S H I F T ™\nS H I F T 2 · C O M M U N I C A T E\nA great plan doesn't automatically create a\nconfident decision\n45minutes examining\n5minutes explaining\n“Let me think about it.”\nSometimes it's money — respect that.\nOften it's understanding: why it matters, the\nalternatives, how it connects to their\nconcern.\nClinical excellence + clear communication = better-informed\npatients\n17",
+      "num": 17
+    },
+    {
+      "text": "S E A M L E S S \tT H E P R O F I TA B L E P R A C T I C E S H I F T ™\nT H E T R E A T M E N T C O N V E R S A T I O N\nStructure it around five questions\n1 \tWhat is the patient's concern?\n2 \tWhat is the diagnosis?\n3 \tWhat appropriate options exist?\n4 \tWhat are the benefits, risks and outcomes?\n5 \tWhat time, cost and commitment does each involve?\nNot selling dentistry.\nHelping patients make\ninformed decisions.\n18",
+      "num": 18
+    },
+    {
+      "text": "S E A M L E S S \tT H E P R O F I TA B L E P R A C T I C E S H I F T ™\nS H I F T 3 · T H E V A L U E C H A I N\nProfitability is not one event\n1\nDiagnosis\n2\nTreatment planning\n3\nCommunication\n4\nDecision\n5\nTreatment start\n6\nEconomic\nmeasurement\nGAP Accepted — but\nnobody schedules it\nGAP Delivered — cost\nto deliver unknown\n19",
+      "num": 19
+    },
+    {
+      "text": "S E A M L E S S \tT H E P R O F I TA B L E P R A C T I C E S H I F T ™\nT H E F I V E S H I F T S I N P R A C T I C E\nDiagnose before you optimize\n1 \tDIAGNOSE \tIdentify your economic bottleneck\n2 \tELEVATE \tPlan appropriate comprehensive care\n3 \tCOMMUNICATE \tPresent treatment value confidently\n4 \tCONVERT \tImprove the patient decision pathway\n5 \tOPTIMIZE \tMake better use of clinical capacity\n20",
+      "num": 20
+    },
+    {
+      "text": "S E A M L E S S \tT H E P R O F I TA B L E P R A C T I C E S H I F T ™\nWho can name one thing to\nimprove in their practice?\nKnowing is one thing. Implementation is another.\n21",
+      "num": 21
+    },
+    {
+      "text": "S E A M L E S S \tT H E P R O F I TA B L E P R A C T I C E S H I F T ™\nKnowledge creates awareness.\nImplementation creates\noperational change.\n22",
+      "num": 22
+    },
+    {
+      "text": "S E A M L E S S \tT H E P R O F I TA B L E P R A C T I C E S H I F T ™\nR — A N D T H E N M O N D A Y H A P P E N E D\nKnowing what to change is not the same as\nchanging it\nK N O W I N G \tW H AT A C T U A L LY C H A N G E S T H E P R A C T I C E\n“We should communicate better.” \tA repeatable communication process\n“Revenue per hour matters.” \tCalculate it, understand it, decide with it\n“Follow up better.” \tA defined process with clear responsibilities\n23",
+      "num": 23
+    },
+    {
+      "text": "S E A M L E S S \tT H E P R O F I TA B L E P R A C T I C E S H I F T ™\nW H A T H A P P E N S N E X T ?\nTwo legitimate paths forward\nP A T H 1\nImplement it independently\nTake the framework home. Examine your\nnumbers, planning, communication and patient\njourney yourself.\nP A T H 2\nStructured implementation\nA defined process with coaching, practical tools,\nfeedback and accountability.\n24",
+      "num": 24
+    },
+    {
+      "text": "S E A M L E S S \tT H E P R O F I TA B L E P R A C T I C E S H I F T ™\nI N T R O D U C I N G\nThe Profitable Practice Accelerator™\n8W E E K S\nEight weeks to begin building a more economically\neffective dental practice.\nNot another clinical course.\nImplementation for established dentists ready to turn clinical\nexcellence into measurable practice economics.\nS TA R T S F I R S T W E E K O F D E C E M B E R 2 0 2 6\n25",
+      "num": 25
+    },
+    {
+      "text": "S E A M L E S S \tT H E P R O F I TA B L E P R A C T I C E S H I F T ™\nY O U R E I G H T - W E E K J O U R N E Y\nWhat we'll build together\nW E E K S 1 – 2\nDIAGNOSE\nEconomics\nbaseline and\npriority\nbottleneck\nW E E K 3\nELEVATE\nComprehensive\ntreatment-planni\nng structure\nW E E K S 4 – 5\nCOMMUNICATE\nTreatment and\nvalue\ncommunication\nprocess\nW E E K 6\nCONVERT\nPatient decision\nand follow-up\nworkflow\nW E E K S 7 – 8\nOPTIMIZE\nProfitability\ndashboard and\n90-day plan\n26",
+      "num": 26
+    },
+    {
+      "text": "S E A M L E S S \tT H E P R O F I TA B L E P R A C T I C E S H I F T ™\nW H A T Y O U R E C E I V E\nThe complete implementation experience\nEight weeks of structured group coaching\nThe Profitable Practice Shift™ methodology\nPractice Economics Scorecard™\nDental Value Leak Audit™\nComprehensive Treatment Planning resources\nPatient Value Communication tools\nAcceptance-to-Start tracking resources\nClinical Capacity Optimization tools\n90-Day Practice Improvement Plan\nImplementation feedback and support\n27",
+      "num": 27
+    },
+    {
+      "text": "S E A M L E S S \tT H E P R O F I TA B L E P R A C T I C E S H I F T ™\nT H E V A L U E\nWhat would better practice economics make\npossible?\nGreater economic\nvisibility\nMore intentional clinical\ncapacity\nClearer patient\ncommunication\nMore consistent\nworkflows\nBetter-informed business\ndecisions\nA foundation for\nsustainable profitability\nYou've invested years in your clinical expertise. What have you invested in the business around\nit?\n28",
+      "num": 28
+    },
+    {
+      "text": "S E A M L E S S \tT H E P R O F I TA B L E P R A C T I C E S H I F T ™\nY O U R E N R O L L M E N T O P T I O N S\nSame program. Choose how you invest.\nOPTION 1 · PAY IN FULL\n$2,500\ntoday\nSave $500\nBest value\nOPTION 2 · TWO PAYMENTS\n$1,500\ntoday\n+ $1,300 by November 20\nTotal $2,800 · Save $200\nOPTION 3 · THREE PAYMENTS\n$1,000\ntoday\n+ $1,000 by Nov 20 · + $1,000\nby Dec 20\nTotal $3,000\nStandard tuition $3,000 · Every option = full access to the same 8-week program · Starts first week of December 2026\n29",
+      "num": 29
+    },
+    {
+      "text": "S E A M L E S S \tT H E P R O F I TA B L E P R A C T I C E S H I F T ™\nT W O Q U E S T I O N S W O R T H A S K I N G\nWill it work for me? Can I implement it?\n“Will this work for a practice like\nmine?”\nWe begin with diagnosis — your constraint,\nyour numbers, your market, your team. Results\ndepend on your starting point and how\nconsistently you implement.\n“I'm already busy. Will I have the\ntime?”\nClear priorities, step-by-step implementation —\nnot everything overnight. At some point you\nmust work on the practice, not only in it.\n30",
+      "num": 30
+    },
+    {
+      "text": "S E A M L E S S \tT H E P R O F I TA B L E P R A C T I C E S H I F T ™\nEnroll today\nYour next practice shift starts here.\nPay in full \t$2,500 today\nTwo payments \t$1,500 today\nThree payments \t$1,000 today\nS TA R T S F I R S T W E E K O F D E C E M B E R 2 0 2 6\nScan to enroll\n31",
+      "num": 31
+    },
+    {
+      "text": "S E A M L E S S \tT H E P R O F I TA B L E P R A C T I C E S H I F T ™\nThe dentist has evolved.\nNow it's time for the practice model\nto evolve too.\nThank you · Dr Amy Traore-Shumbusho\nEnroll: Pay in full $2,500 · Two payments $1,500 today · Three payments $1,000 today\n32",
+      "num": 32
+    }
+  ],
+  "text": "S E A M L E S S\nS E A M L E S S G R A N D F I N A L E 2 0 2 6 · L A G O S\nYour diary is full.\nIs your practice as profitable\nas it should be?\nStronger practice economics — without simply working more hours\nor chasing more patients.\nT H E P RO F I TA B L E P R AC T I C E S H I F T ™\nDr Amy Traore-Shumbusho\n\n-- 1 of 32 --\n\nS E A M L E S S \tT H E P R O F I TA B L E P R A C T I C E S H I F T ™\nB E F O R E W E B E G I N\nHow many years have you invested in becoming a\nbetter dentist?\nCourses \tAdvanced training \tEquipment \tTeams \tReputation\nFull diary. Trusted by patients. Respectable revenue.\n2\n\n-- 2 of 32 --\n\nS E A M L E S S \tT H E P R O F I TA B L E P R A C T I C E S H I F T ™\nClinically successful.\nEconomically frustrated.\nIs your practice as economically successful as your clinical career?\n3\n\n-- 3 of 32 --\n\nS E A M L E S S \tT H E P R O F I TA B L E P R A C T I C E S H I F T ™\nThe dentist has evolved.\nThe business model hasn't.\nOne of the most important statements I'll make today.\n4\n\n-- 4 of 32 --\n\nS E A M L E S S \tT H E P R O F I TA B L E P R A C T I C E S H I F T ™\nT H E U S U A L R E F L E X\nWhen the diary is already full, more is not the\nanswer\nMore patients \tMore procedures \tAnother chair \tAnother associate \tAnother clinical day\nPerhaps the answer isn't more dentistry.\nIt's a more economically effective practice around the dentistry you already deliver.\n5\n\n-- 5 of 32 --\n\nS E A M L E S S \tT H E P R O F I TA B L E P R A C T I C E S H I F T ™\nM Y P R O M I S E T O D A Y\nGreat dentistry and strong practice economics can\n— and should — coexist\nW H AT T H I S I S N O T\nSelling unnecessary treatment\nPressuring patients\nW H AT T H I S I S\nClinical excellence \tComprehensive patient\ncare\nEffective communication \tIntelligent business\ndecisions\n6\n\n-- 6 of 32 --\n\nS E A M L E S S \tT H E P R O F I TA B L E P R A C T I C E S H I F T ™\nN — N A M E T H E C O S T L Y G A P\nThe Busy-Practice Profitability Gap™\nT H E G A P\nYour clinical\nexpertise\nEconomic value\ncreated\nYour skills grow.\nYour experience grows.\nYour systems don't grow at the same\nrate.\nThe difference between your clinical expertise and the\neconomic value your practice consistently creates from it.\n7\n\n-- 7 of 32 --\n\nS E A M L E S S \tT H E P R O F I TA B L E P R A C T I C E S H I F T ™\nF O U R D I F F E R E N T P R O B L E M S\n…all given the same prescription\n1\nIsolated procedures where\ncomprehensive\nassessment would fit\n2\nExcellent treatment plans\npatients don't fully\nunderstand\n3\nInterest that stalls\nbetween consultation and\ntreatment start\n4\nRevenue — without\nknowing what each clinical\nhour contributes\n“Let's get more\npatients.”\n8\n\n-- 8 of 32 --\n\nS E A M L E S S \tT H E P R O F I TA B L E P R A C T I C E S H I F T ™\nWould you prescribe the same\ntreatment to every patient —\nbefore a diagnosis?\nSo why prescribe the same growth strategy to every practice?\n9\n\n-- 9 of 32 --\n\nS E A M L E S S \tT H E P R O F I TA B L E P R A C T I C E S H I F T ™\nP R A C T I C E P R O F I T A B I L I T Y Q U I C K C H E C K ™\nWhat's your biggest profitability bottleneck?\nA\nClinical Value Gap\nWe aren't consistently identifying or\nplanning appropriate comprehensive care. B\nCommunication Gap\nPatients don't always understand the value\nand options in our plans.\nC\nPatient Decision Gap\nAppropriate plans stall between\npresentation and treatment start. D\nEconomic Visibility Gap\nWe generate revenue but don't clearly\nunderstand profitability or clinical-time\neconomics.\n10\n\n-- 10 of 32 --\n\nS E A M L E S S \tT H E P R O F I TA B L E P R A C T I C E S H I F T ™\nNot one of these\nis solved by seeing more patients.\nThis is where many experienced dentists get stuck.\n11\n\n-- 11 of 32 --\n\nS E A M L E S S \tT H E P R O F I TA B L E P R A C T I C E S H I F T ™\nT H E C O S T O F S T A Y I N G S T U C K\nThe cost isn't just lost revenue\nWhat happens if your\npractice runs below its\npotential for another 3 to 5\nyears?\nYour income. Your ability to invest. Your family\ntime. Your freedom to reduce clinical hours.\nUnderutilized expertise\nUnnecessary operational friction\nPoor financial visibility\nAdditional clinical hours\nDelayed financial independence\n12\n\n-- 12 of 32 --\n\nS E A M L E S S \tT H E P R O F I TA B L E P R A C T I C E S H I F T ™\nV — M Y D I S C O V E R Y\nClinical excellence doesn't automatically create\ncommercial excellence\nD E N TA L S C H O O L T E A C H E S\nDiagnose\nTreatment-plan\nTreat\n≠\nP R A C T I C E O W N E R S H I P D E M A N D S\nPeople · Systems · Costs\nProductivity · Profitability\nOrthodontics & prosthodontics · Founder, Smile360 Dental Specialists\n13\n\n-- 13 of 32 --\n\nS E A M L E S S \tT H E P R O F I TA B L E P R A C T I C E S H I F T ™\nT H E F R A M E W O R K\nThe Profitable Practice Shift™\n1\nDIAGNOSE\nIdentify where value is\nbeing lost\n2\nELEVATE\nPlan appropriate\ncomprehensive care\n3\nCOMMUNICATE\nMake diagnosis, options\nand investment clear\n4\nCONVERT\nStrengthen\npresentation-to-start\n5\nOPTIMIZE\nImprove the economics\nof existing capacity\nFive shifts that connect clinical excellence with stronger practice economics.\n14\n\n-- 14 of 32 --\n\nS E A M L E S S \tT H E P R O F I TA B L E P R A C T I C E S H I F T ™\nE — S H I F T 1 · D I A G N O S E\nA full diary is not the same as a profitable diary\nDentist A\n4 clinical days · Fully booked\nMeasures success almost entirely by revenue\nin.\nDentist B\n4 clinical days · Fully booked\nMeasures revenue per clinical hour, treatment\nmix, direct cost of delivery — and profit\nretained.\nSame hours. Better visibility. Better decisions.\n15\n\n-- 15 of 32 --\n\nS E A M L E S S \tT H E P R O F I TA B L E P R A C T I C E S H I F T ™\nT H R E E N U M B E R S E V E R Y O W N E R S H O U L D K N O W\nRevenue alone can't tell the whole story\n01\nRevenue per clinical hour\n02\nContribution after direct\ndelivery costs\n03\nActual operating profit\nA bigger fee doesn't automatically mean a bigger profit — lab, materials, specialist time and overhead all\ncount.\n16\n\n-- 16 of 32 --\n\nS E A M L E S S \tT H E P R O F I TA B L E P R A C T I C E S H I F T ™\nS H I F T 2 · C O M M U N I C A T E\nA great plan doesn't automatically create a\nconfident decision\n45minutes examining\n5minutes explaining\n“Let me think about it.”\nSometimes it's money — respect that.\nOften it's understanding: why it matters, the\nalternatives, how it connects to their\nconcern.\nClinical excellence + clear communication = better-informed\npatients\n17\n\n-- 17 of 32 --\n\nS E A M L E S S \tT H E P R O F I TA B L E P R A C T I C E S H I F T ™\nT H E T R E A T M E N T C O N V E R S A T I O N\nStructure it around five questions\n1 \tWhat is the patient's concern?\n2 \tWhat is the diagnosis?\n3 \tWhat appropriate options exist?\n4 \tWhat are the benefits, risks and outcomes?\n5 \tWhat time, cost and commitment does each involve?\nNot selling dentistry.\nHelping patients make\ninformed decisions.\n18\n\n-- 18 of 32 --\n\nS E A M L E S S \tT H E P R O F I TA B L E P R A C T I C E S H I F T ™\nS H I F T 3 · T H E V A L U E C H A I N\nProfitability is not one event\n1\nDiagnosis\n2\nTreatment planning\n3\nCommunication\n4\nDecision\n5\nTreatment start\n6\nEconomic\nmeasurement\nGAP Accepted — but\nnobody schedules it\nGAP Delivered — cost\nto deliver unknown\n19\n\n-- 19 of 32 --\n\nS E A M L E S S \tT H E P R O F I TA B L E P R A C T I C E S H I F T ™\nT H E F I V E S H I F T S I N P R A C T I C E\nDiagnose before you optimize\n1 \tDIAGNOSE \tIdentify your economic bottleneck\n2 \tELEVATE \tPlan appropriate comprehensive care\n3 \tCOMMUNICATE \tPresent treatment value confidently\n4 \tCONVERT \tImprove the patient decision pathway\n5 \tOPTIMIZE \tMake better use of clinical capacity\n20\n\n-- 20 of 32 --\n\nS E A M L E S S \tT H E P R O F I TA B L E P R A C T I C E S H I F T ™\nWho can name one thing to\nimprove in their practice?\nKnowing is one thing. Implementation is another.\n21\n\n-- 21 of 32 --\n\nS E A M L E S S \tT H E P R O F I TA B L E P R A C T I C E S H I F T ™\nKnowledge creates awareness.\nImplementation creates\noperational change.\n22\n\n-- 22 of 32 --\n\nS E A M L E S S \tT H E P R O F I TA B L E P R A C T I C E S H I F T ™\nR — A N D T H E N M O N D A Y H A P P E N E D\nKnowing what to change is not the same as\nchanging it\nK N O W I N G \tW H AT A C T U A L LY C H A N G E S T H E P R A C T I C E\n“We should communicate better.” \tA repeatable communication process\n“Revenue per hour matters.” \tCalculate it, understand it, decide with it\n“Follow up better.” \tA defined process with clear responsibilities\n23\n\n-- 23 of 32 --\n\nS E A M L E S S \tT H E P R O F I TA B L E P R A C T I C E S H I F T ™\nW H A T H A P P E N S N E X T ?\nTwo legitimate paths forward\nP A T H 1\nImplement it independently\nTake the framework home. Examine your\nnumbers, planning, communication and patient\njourney yourself.\nP A T H 2\nStructured implementation\nA defined process with coaching, practical tools,\nfeedback and accountability.\n24\n\n-- 24 of 32 --\n\nS E A M L E S S \tT H E P R O F I TA B L E P R A C T I C E S H I F T ™\nI N T R O D U C I N G\nThe Profitable Practice Accelerator™\n8W E E K S\nEight weeks to begin building a more economically\neffective dental practice.\nNot another clinical course.\nImplementation for established dentists ready to turn clinical\nexcellence into measurable practice economics.\nS TA R T S F I R S T W E E K O F D E C E M B E R 2 0 2 6\n25\n\n-- 25 of 32 --\n\nS E A M L E S S \tT H E P R O F I TA B L E P R A C T I C E S H I F T ™\nY O U R E I G H T - W E E K J O U R N E Y\nWhat we'll build together\nW E E K S 1 – 2\nDIAGNOSE\nEconomics\nbaseline and\npriority\nbottleneck\nW E E K 3\nELEVATE\nComprehensive\ntreatment-planni\nng structure\nW E E K S 4 – 5\nCOMMUNICATE\nTreatment and\nvalue\ncommunication\nprocess\nW E E K 6\nCONVERT\nPatient decision\nand follow-up\nworkflow\nW E E K S 7 – 8\nOPTIMIZE\nProfitability\ndashboard and\n90-day plan\n26\n\n-- 26 of 32 --\n\nS E A M L E S S \tT H E P R O F I TA B L E P R A C T I C E S H I F T ™\nW H A T Y O U R E C E I V E\nThe complete implementation experience\nEight weeks of structured group coaching\nThe Profitable Practice Shift™ methodology\nPractice Economics Scorecard™\nDental Value Leak Audit™\nComprehensive Treatment Planning resources\nPatient Value Communication tools\nAcceptance-to-Start tracking resources\nClinical Capacity Optimization tools\n90-Day Practice Improvement Plan\nImplementation feedback and support\n27\n\n-- 27 of 32 --\n\nS E A M L E S S \tT H E P R O F I TA B L E P R A C T I C E S H I F T ™\nT H E V A L U E\nWhat would better practice economics make\npossible?\nGreater economic\nvisibility\nMore intentional clinical\ncapacity\nClearer patient\ncommunication\nMore consistent\nworkflows\nBetter-informed business\ndecisions\nA foundation for\nsustainable profitability\nYou've invested years in your clinical expertise. What have you invested in the business around\nit?\n28\n\n-- 28 of 32 --\n\nS E A M L E S S \tT H E P R O F I TA B L E P R A C T I C E S H I F T ™\nY O U R E N R O L L M E N T O P T I O N S\nSame program. Choose how you invest.\nOPTION 1 · PAY IN FULL\n$2,500\ntoday\nSave $500\nBest value\nOPTION 2 · TWO PAYMENTS\n$1,500\ntoday\n+ $1,300 by November 20\nTotal $2,800 · Save $200\nOPTION 3 · THREE PAYMENTS\n$1,000\ntoday\n+ $1,000 by Nov 20 · + $1,000\nby Dec 20\nTotal $3,000\nStandard tuition $3,000 · Every option = full access to the same 8-week program · Starts first week of December 2026\n29\n\n-- 29 of 32 --\n\nS E A M L E S S \tT H E P R O F I TA B L E P R A C T I C E S H I F T ™\nT W O Q U E S T I O N S W O R T H A S K I N G\nWill it work for me? Can I implement it?\n“Will this work for a practice like\nmine?”\nWe begin with diagnosis — your constraint,\nyour numbers, your market, your team. Results\ndepend on your starting point and how\nconsistently you implement.\n“I'm already busy. Will I have the\ntime?”\nClear priorities, step-by-step implementation —\nnot everything overnight. At some point you\nmust work on the practice, not only in it.\n30\n\n-- 30 of 32 --\n\nS E A M L E S S \tT H E P R O F I TA B L E P R A C T I C E S H I F T ™\nEnroll today\nYour next practice shift starts here.\nPay in full \t$2,500 today\nTwo payments \t$1,500 today\nThree payments \t$1,000 today\nS TA R T S F I R S T W E E K O F D E C E M B E R 2 0 2 6\nScan to enroll\n31\n\n-- 31 of 32 --\n\nS E A M L E S S \tT H E P R O F I TA B L E P R A C T I C E S H I F T ™\nThe dentist has evolved.\nNow it's time for the practice model\nto evolve too.\nThank you · Dr Amy Traore-Shumbusho\nEnroll: Pay in full $2,500 · Two payments $1,500 today · Three payments $1,000 today\n32\n\n-- 32 of 32 --\n\n",
+  "total": 32
+}
