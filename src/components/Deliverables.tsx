@@ -32,13 +32,13 @@ export const Deliverables: React.FC<DeliverablesProps> = ({ onEnrolClick }) => {
     },
     {
       number: "02",
-      title: "Practice Economics Scorecard™",
+      title: "Practice Economics Scorecard",
       description: "Understand how your practice is performing financially and identify where improvements are needed.",
       image: "/assets/practice-interior.jpg",
     },
     {
       number: "03",
-      title: "Dental Value Leak Audit™",
+      title: "Dental Value Leak Audit",
       description: "Identify where potential revenue and value are being lost between patient examination, treatment presentation and treatment start.",
       image: "/assets/practice-clinic.jpg",
     },

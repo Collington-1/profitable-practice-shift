@@ -53,8 +53,8 @@ export interface FAQItem {
 
 export const PROGRAMME_DATA = {
   meta: {
-    programmeName: "The Profitable Practice Accelerator™",
-    methodologyName: "The Profitable Practice Shift™",
+    programmeName: "The Profitable Practice Accelerator",
+    methodologyName: "The Profitable Practice Shift",
     founderName: "Dr Amy Traore-Shumbusho",
     founderTitle: "Orthodontics & Prosthodontics Background | Founder, Smile360 Dental Specialists",
     cohortStartDate: "First week of December 2026",
@@ -174,8 +174,8 @@ export const PROGRAMME_DATA = {
       theme: "Economics Baseline & Priority Bottleneck",
       objective: "Establish your practice economics baseline, calculate true revenue per clinical hour, and pinpoint your primary leak.",
       deliverables: [
-        "Practice Economics Scorecard™ completion",
-        "Dental Value Leak Audit™ run-through",
+        "Practice Economics Scorecard completion",
+        "Dental Value Leak Audit run-through",
         "Clinical capacity & overhead cost mapping"
       ],
       focusPill: "Discovery & Numbers"
@@ -245,7 +245,7 @@ export const PROGRAMME_DATA = {
     },
     {
       id: "methodology",
-      title: "The Profitable Practice Shift™ Methodology",
+      title: "The Profitable Practice Shift Methodology",
       category: "Clinical Systems",
       description: "Complete proprietary 5-step framework connecting diagnostic clinical excellence directly to measurable practice economics.",
       iconType: "Compass",
@@ -253,7 +253,7 @@ export const PROGRAMME_DATA = {
     },
     {
       id: "scorecard",
-      title: "Practice Economics Scorecard™",
+      title: "Practice Economics Scorecard",
       category: "Diagnostic",
       description: "A clear diagnostic instrument to quantify your actual revenue per clinical hour, direct delivery costs, and operatory profitability.",
       iconType: "LineChart",
@@ -261,7 +261,7 @@ export const PROGRAMME_DATA = {
     },
     {
       id: "audit",
-      title: "Dental Value Leak Audit™",
+      title: "Dental Value Leak Audit",
       category: "Diagnostic",
       description: "Systematic audit tool identifying exactly which of the 4 bottlenecks (Clinical, Communication, Decision, or Visibility) is draining revenue.",
       iconType: "ShieldAlert",
@@ -366,8 +366,8 @@ export const PROGRAMME_DATA = {
       features: [
         "Full access to the 8-week Accelerator programme",
         "Direct weekly group coaching with Dr Amy",
-        "The Profitable Practice Shift™ Complete Methodology",
-        "Practice Economics Scorecard™ & Leak Audit™",
+        "The Profitable Practice Shift Complete Methodology",
+        "Practice Economics Scorecard & Leak Audit",
         "Patient Value Communication & 5-Question Framework",
         "Acceptance-to-Start tracking protocols & templates",
         "90-Day Practice Improvement Plan & feedback loops",
@@ -430,7 +430,7 @@ export const PROGRAMME_DATA = {
     {
       category: "Programme & Format",
       question: "Who is the programme for?",
-      answer: "The Profitable Practice Accelerator™ is specifically designed for established dentists, dental specialists, and dental practice owners who have already built solid clinical competence and a full diary, but feel that their practice economics and retained profit do not reflect the depth of their skill or clinical hours."
+      answer: "The Profitable Practice Accelerator is specifically designed for established dentists, dental specialists, and dental practice owners who have already built solid clinical competence and a full diary, but feel that their practice economics and retained profit do not reflect the depth of their skill or clinical hours."
     },
     {
       category: "Programme & Format",
@@ -460,7 +460,7 @@ export const PROGRAMME_DATA = {
     {
       category: "Enrolment & Investment",
       question: "What support and tools are included?",
-      answer: "Participants receive eight weeks of structured group coaching, direct implementation feedback from Dr Amy, the proprietary Practice Economics Scorecard™, the Dental Value Leak Audit™, comprehensive treatment planning frameworks, the 5-Question Patient Value Communication guides, acceptance tracking workflows, capacity optimization tools, and a 90-Day Practice Improvement Plan."
+      answer: "Participants receive eight weeks of structured group coaching, direct implementation feedback from Dr Amy, the proprietary Practice Economics Scorecard, the Dental Value Leak Audit, comprehensive treatment planning frameworks, the 5-Question Patient Value Communication guides, acceptance tracking workflows, capacity optimization tools, and a 90-Day Practice Improvement Plan."
     },
     {
       category: "Enrolment & Investment",

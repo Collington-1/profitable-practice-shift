@@ -43,19 +43,19 @@ export function App() {
         {/* 01 — Hero / Above the Fold */}
         <Hero onEnrolClick={handleEnrolClick} />
 
-        {/* 02 — The Problem: The Busy-Practice Profitability Gap™ */}
+        {/* 02 — The Problem: The Busy-Practice Profitability Gap */}
         <Problem />
 
         {/* Video Feature — Dr. Amy Traore-Shumbusho (Placed on the intersection between black Problem section and white Methodology section) */}
         <VideoSection />
 
-        {/* 03 — The Methodology: The Profitable Practice Shift™ */}
+        {/* 03 — The Methodology: The Profitable Practice Shift */}
         <Methodology onEnrolClick={handleEnrolClick} />
 
         {/* 04 — Founder / About Dr Amy */}
         <Founder onEnrolClick={handleEnrolClick} />
 
-        {/* 05 — The Programme: The Profitable Practice Accelerator™ */}
+        {/* 05 — The Programme: The Profitable Practice Accelerator */}
         <Journey onEnrolClick={handleEnrolClick} />
 
         {/* 06 — What Participants Receive */}

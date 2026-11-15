@@ -65,7 +65,7 @@ export const Closeout: React.FC<CloseoutProps> = ({ onEnrolClick }) => {
         {/* Discreet Legal & Copyright */}
         <div className="pt-6 border-t border-white/10 text-xs text-stone-400">
           <p>
-            © {new Date().getFullYear()} The Profitable Practice Shift™ &amp; The Profitable Practice Accelerator™. 
+            © {new Date().getFullYear()} The Profitable Practice Shift &amp; The Profitable Practice Accelerator. 
             All rights reserved.
           </p>
         </div>

@@ -61,7 +61,7 @@ export const Navbar: React.FC<NavbarProps> = ({ onEnrolClick }) => {
                 The Profitable Practice
               </span>
               <span className="text-[10px] sm:text-xs wide:text-sm text-brand-gold tracking-[0.2em] uppercase font-medium">
-                Accelerator™
+                Accelerator
               </span>
             </div>
           </a>

@@ -1,7 +1,7 @@
 /**
  * STRIPE PAYMENT INTEGRATION BOUNDARY
  * 
- * This module manages payment initiation for The Profitable Practice Accelerator™.
+ * This module manages payment initiation for The Profitable Practice Accelerator.
  * It follows security best practices:
  * 1. Never handles card data directly (delegates to Stripe-hosted Checkout).
  * 2. Never exposes Stripe Secret Keys or Webhook Secrets in frontend code.

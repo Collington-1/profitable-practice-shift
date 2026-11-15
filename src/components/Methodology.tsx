@@ -476,7 +476,7 @@ export const Methodology: React.FC<MethodologyProps> = ({ onEnrolClick }) => {
               <div>
                 <h4 className="text-xs uppercase font-bold text-stone-400 tracking-wider mb-2 flex items-center gap-1.5">
                   <Sparkles className="w-3.5 h-3.5 text-[#BDA047]" />
-                  <span>The Profitable Practice Shift™</span>
+                  <span>The Profitable Practice Shift</span>
                 </h4>
                 <p className="text-sm sm:text-base text-stone-900 leading-relaxed font-normal bg-[#FAF7F2] p-4 rounded-xl border border-[#BDA047]/30">
                   {selectedShift.theShift}

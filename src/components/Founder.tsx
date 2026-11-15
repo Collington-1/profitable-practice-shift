@@ -34,7 +34,7 @@ export const Founder: React.FC<FounderProps> = () => {
                 </p>
 
                 <p className="text-stone-300">
-                  The <strong className="text-white font-normal">Profitable Practice Shift™</strong> provides the frameworks to capture the 
+                  The <strong className="text-white font-normal">Profitable Practice Shift</strong> provides the frameworks to capture the 
                   true economic value of your clinical craft without adding clinical days or pressuring patients.
                 </p>
               </div>
@@ -97,7 +97,7 @@ export const Founder: React.FC<FounderProps> = () => {
                     </h3>
                   </div>
                   <p className="text-sm wide:text-base text-stone-300 leading-relaxed font-light pl-1">
-                    To eliminate the Busy-Practice Profitability Gap™ while preserving the highest clinical standards and ethical patient care.
+                    To eliminate the Busy-Practice Profitability Gap while preserving the highest clinical standards and ethical patient care.
                   </p>
                 </div>
 

@@ -23,8 +23,8 @@ export const Journey: React.FC<JourneyProps> = () => {
       subtitle: "Identify where value is being lost and establish the economic bottleneck.",
       image: "/assets/practice-interior.jpg",
       deliverables: [
-        "Practice Economics Scorecard™ completion",
-        "Dental Value Leak Audit™ run-through",
+        "Practice Economics Scorecard completion",
+        "Dental Value Leak Audit run-through",
         "Clinical capacity & overhead cost mapping",
       ],
     },

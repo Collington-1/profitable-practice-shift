@@ -97,7 +97,7 @@ export const Investment: React.FC<InvestmentProps> = ({ onSelectPlan }) => {
                       </li>
                       <li className="flex items-center gap-2.5">
                         <Check className="w-4 h-4 text-brand-gold shrink-0" />
-                        <span>Scorecard™ &amp; Value Leak Audit™</span>
+                        <span>Scorecard &amp; Value Leak Audit</span>
                       </li>
                       <li className="flex items-center gap-2.5">
                         <Check className="w-4 h-4 text-brand-gold shrink-0" />
