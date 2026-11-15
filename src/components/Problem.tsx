@@ -42,7 +42,7 @@ export const Problem: React.FC = () => {
     <section 
       id="problem" 
       ref={ref}
-      className="pt-10 sm:pt-14 lg:pt-16 pb-16 sm:pb-20 lg:pb-24 bg-[#0A0A0A] text-white border-t border-white/10 relative overflow-hidden"
+      className="pt-16 sm:pt-20 lg:pt-24 pb-12 sm:pb-16 lg:pb-20 bg-[#0A0A0A] text-white border-t border-white/10 relative overflow-hidden"
     >
       {/* Background ambient lighting */}
       <div className="absolute inset-0 pointer-events-none">

@@ -43,11 +43,11 @@ export function App() {
         {/* 01 — Hero / Above the Fold */}
         <Hero onEnrolClick={handleEnrolClick} />
 
-        {/* Video Feature — Dr. Amy Traore-Shumbusho */}
-        <VideoSection />
-
         {/* 02 — The Problem: The Busy-Practice Profitability Gap™ */}
         <Problem />
+
+        {/* Video Feature — Dr. Amy Traore-Shumbusho (Placed on the intersection between black Problem section and white Methodology section) */}
+        <VideoSection />
 
         {/* 03 — The Methodology: The Profitable Practice Shift™ */}
         <Methodology onEnrolClick={handleEnrolClick} />

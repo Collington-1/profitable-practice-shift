@@ -198,7 +198,7 @@ export const Methodology: React.FC<MethodologyProps> = ({ onEnrolClick }) => {
   return (
     <section 
       id="methodology" 
-      className="py-20 lg:py-28 bg-[#FAF7F2] text-[#141414] relative overflow-hidden border-y border-stone-200"
+      className="pt-10 sm:pt-14 lg:pt-16 pb-20 lg:pb-28 bg-[#FAF7F2] text-[#141414] relative overflow-hidden border-b border-stone-200"
     >
       {/* Soft warm luxury ambient background glow */}
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[900px] h-[550px] rounded-full bg-[#BDA047]/[0.035] blur-[160px] pointer-events-none" />

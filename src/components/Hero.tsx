@@ -17,7 +17,7 @@ export const Hero: React.FC<HeroProps> = ({ onEnrolClick }) => {
   return (
     <section 
       id="hero" 
-      className="relative pt-28 pb-10 sm:pb-12 lg:pt-36 lg:pb-14 text-white overflow-hidden"
+      className="relative pt-28 pb-14 lg:pt-36 lg:pb-20 text-white overflow-hidden"
     >
       {/* Studio Lighting Gradient Background matching Carlos Dental Studio Reference */}
       <div className="absolute inset-0 pointer-events-none">
