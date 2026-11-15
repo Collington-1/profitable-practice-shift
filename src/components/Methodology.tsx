@@ -208,12 +208,12 @@ export const Methodology: React.FC<MethodologyProps> = ({ onEnrolClick }) => {
         {/* 5-Card Infinite Repeating Perspective Carousel (Always Full, Seamless Infinite Loop) */}
         <div 
           ref={containerRef}
-          className="relative w-full overflow-hidden py-4 sm:py-6 px-3 sm:px-6 lg:px-8 flex items-center justify-center min-h-[500px] sm:min-h-[540px] lg:min-h-[580px] wide:min-h-[660px]"
+          className="relative w-full overflow-hidden py-3 sm:py-6 px-2 sm:px-6 lg:px-8 flex items-center justify-center min-h-[460px] sm:min-h-[520px] lg:min-h-[580px] wide:min-h-[660px]"
           onTouchStart={handleTouchStart}
           onTouchMove={handleTouchMove}
           onTouchEnd={handleTouchEnd}
         >
-          <div className="relative w-full max-w-7xl wide:max-w-wide mx-auto flex items-center justify-center h-[460px] sm:h-[500px] lg:h-[540px] wide:h-[620px]">
+          <div className="relative w-full max-w-7xl wide:max-w-wide mx-auto flex items-center justify-center h-[420px] sm:h-[480px] lg:h-[540px] wide:h-[620px]">
             {extendedShifts.map((shift, idx) => {
               // Distance relative to active virtualIndex
               const dist = idx - virtualIndex;
@@ -237,26 +237,26 @@ export const Methodology: React.FC<MethodologyProps> = ({ onEnrolClick }) => {
 
               if (absDist === 0) {
                 // Active Center Card
-                scale = 1.08;
-                translateY = -24;
+                scale = 1.05;
+                translateY = -18;
                 darkOverlayOpacity = 0;
                 opacity = 1;
               } else if (absDist === 1) {
-                // Left & Right Neighbor
-                scale = 0.94;
+                // Left & Right Neighbor (Clearly peeks out on mobile and desktop)
+                scale = 0.92;
                 translateY = 0;
-                darkOverlayOpacity = 0.25;
+                darkOverlayOpacity = 0.28;
                 opacity = 1;
               } else if (absDist === 2) {
                 // Outer Left & Right (Always filled with fully visible rounded corners)
-                scale = 0.85;
-                translateY = 16;
-                darkOverlayOpacity = 0.40;
+                scale = 0.82;
+                translateY = 14;
+                darkOverlayOpacity = 0.45;
                 opacity = 1;
               } else {
                 // Edge buffers (dist === 3 or -3): sliding in or out smoothly
-                scale = 0.78;
-                translateY = 24;
+                scale = 0.74;
+                translateY = 22;
                 darkOverlayOpacity = 0.70;
                 opacity = 0; // fade at the extreme outer edges
               }
@@ -273,20 +273,20 @@ export const Methodology: React.FC<MethodologyProps> = ({ onEnrolClick }) => {
                   }}
                   style={{
                     // Responsive horizontal displacement along the track
-                    // clamp(120px, 13.5vw, 195px) ensures cards at both ends never hit container edges
-                    // and their rounded corners remain fully visible on all viewports
-                    transform: `translate3d(calc(${dist} * clamp(120px, 13.5vw, 195px)), ${translateY}px, 0) scale(${scale})`,
+                    // clamp(112px, 13vw, 195px) guarantees cards behind show prominently on mobile screens
+                    // without pushing outer cards out of the visible screen boundaries
+                    transform: `translate3d(calc(${dist} * clamp(112px, 13vw, 195px)), ${translateY}px, 0) scale(${scale})`,
                     zIndex,
                     opacity,
                     // Silky smooth cubic-bezier easing with hardware acceleration
                     transition: 'transform 550ms cubic-bezier(0.25, 1, 0.5, 1), box-shadow 550ms ease, opacity 400ms ease',
                     willChange: 'transform',
                   }}
-                  className={`absolute w-[245px] xs:w-[265px] sm:w-[280px] lg:w-[295px] xl:w-[305px] wide:w-[360px] h-[415px] sm:h-[465px] lg:h-[495px] wide:h-[580px] rounded-[28px] overflow-hidden cursor-pointer select-none group bg-[#161616] border border-white/20 ${
-                    absDist >= 2 ? 'max-sm:opacity-0 max-sm:pointer-events-none' : ''
+                  className={`absolute w-[220px] xs:w-[240px] sm:w-[275px] lg:w-[295px] xl:w-[305px] wide:w-[360px] h-[385px] xs:h-[405px] sm:h-[465px] lg:h-[495px] wide:h-[580px] rounded-[24px] sm:rounded-[28px] overflow-hidden cursor-pointer select-none group bg-[#161616] border border-white/20 ${
+                    absDist >= 2 ? 'max-xs:opacity-0 max-xs:pointer-events-none' : ''
                   } ${
                     isActive 
-                      ? 'shadow-2xl shadow-black/35 ring-2 ring-[#BDA047]' 
+                      ? 'shadow-2xl shadow-black/40 ring-2 ring-[#BDA047]' 
                       : 'shadow-xl shadow-black/25 hover:border-white/40'
                   }`}
                 >
@@ -313,20 +313,20 @@ export const Methodology: React.FC<MethodologyProps> = ({ onEnrolClick }) => {
                   <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/40 to-transparent pointer-events-none" />
 
                   {/* Frosted Glass Foundation (Sample Image Recreation - Solid Opaque Base) */}
-                  <div className="absolute inset-x-3 bottom-3 p-4 sm:p-5 rounded-[22px] bg-stone-950/85 backdrop-blur-xl border border-white/15 text-white shadow-2xl flex flex-col justify-between transition-all duration-300">
+                  <div className="absolute inset-x-2.5 sm:inset-x-3 bottom-2.5 sm:bottom-3 p-3.5 sm:p-5 rounded-[20px] sm:rounded-[22px] bg-stone-950/90 backdrop-blur-xl border border-white/15 text-white shadow-2xl flex flex-col justify-between transition-all duration-300">
                     <div>
                       {/* Top Row: Shift Number & Title + Timeline Badge */}
-                      <div className="flex items-center justify-between gap-2 mb-2">
-                        <h3 className="text-base sm:text-lg font-bold text-white tracking-tight">
+                      <div className="flex items-center justify-between gap-1.5 sm:gap-2 mb-1.5 sm:mb-2">
+                        <h3 className="text-sm xs:text-base sm:text-lg font-bold text-white tracking-tight">
                           {shift.number} {shift.title}
                         </h3>
-                        <span className="px-2.5 py-0.5 rounded-full bg-[#BDA047]/20 border border-[#BDA047]/30 text-[#BDA047] text-[10px] sm:text-[11px] font-semibold shrink-0">
+                        <span className="px-2 sm:px-2.5 py-0.5 rounded-full bg-[#BDA047]/20 border border-[#BDA047]/30 text-[#BDA047] text-[10px] sm:text-[11px] font-semibold shrink-0">
                           {shift.timeline}
                         </span>
                       </div>
 
-                      {/* Short Description (Clean & Concise, No Tags Row) */}
-                      <p className="text-xs text-stone-300 line-clamp-2 leading-relaxed mb-4 font-light">
+                      {/* Short Description (Clean & Concise, Maintains Readable Size) */}
+                      <p className="text-xs text-stone-300 line-clamp-2 leading-relaxed mb-3 sm:mb-4 font-light">
                         {shift.shortSummary}
                       </p>
                     </div>
@@ -337,7 +337,7 @@ export const Methodology: React.FC<MethodologyProps> = ({ onEnrolClick }) => {
                         e.stopPropagation();
                         handleEnrol();
                       }}
-                      className={`w-full py-2.5 px-4 rounded-full font-semibold text-xs tracking-wide transition-all duration-300 flex items-center justify-center gap-1.5 shadow-md ${
+                      className={`w-full py-2 sm:py-2.5 px-3 sm:px-4 rounded-full font-semibold text-xs tracking-wide transition-all duration-300 flex items-center justify-center gap-1.5 shadow-md ${
                         isActive 
                           ? 'bg-white text-stone-900 hover:bg-[#BDA047] hover:text-white' 
                           : 'bg-white/90 text-stone-900 hover:bg-white'
@@ -353,13 +353,13 @@ export const Methodology: React.FC<MethodologyProps> = ({ onEnrolClick }) => {
           </div>
         </div>
 
-        {/* Carousel Bottom Navigation & Controls */}
-        <div className="flex flex-col sm:flex-row items-center justify-center gap-4 sm:gap-8 mt-6 sm:mt-8">
+        {/* Carousel Bottom Navigation & Controls — Horizontal on All Screens */}
+        <div className="flex flex-row items-center justify-center gap-3 sm:gap-6 mt-6 sm:mt-8">
           {/* Previous Arrow Button */}
           <button
             onClick={handlePrev}
             aria-label="Previous Shift"
-            className="w-11 h-11 rounded-full border border-stone-300 bg-white hover:border-[#BDA047] hover:bg-[#BDA047] hover:text-white text-stone-700 flex items-center justify-center transition-all duration-200 shadow-sm active:scale-95"
+            className="w-10 h-10 sm:w-11 sm:h-11 rounded-full border border-stone-300 bg-white hover:border-[#BDA047] hover:bg-[#BDA047] hover:text-white text-stone-700 flex items-center justify-center transition-all duration-200 shadow-sm active:scale-95 shrink-0"
           >
             <ChevronLeft className="w-5 h-5" />
           </button>
@@ -367,7 +367,7 @@ export const Methodology: React.FC<MethodologyProps> = ({ onEnrolClick }) => {
           {/* Center Action Button: "Enrol Now" */}
           <button
             onClick={handleEnrol}
-            className="px-6 py-2.5 rounded-full bg-stone-900 hover:bg-[#BDA047] text-white font-semibold text-xs tracking-wide transition-all shadow-md flex items-center gap-2 active:scale-95"
+            className="px-5 sm:px-6 py-2.5 rounded-full bg-stone-900 hover:bg-[#BDA047] text-white font-semibold text-xs tracking-wide transition-all shadow-md flex items-center gap-2 active:scale-95 shrink-0"
           >
             <span>Enrol Now</span>
             <ArrowRight className="w-3.5 h-3.5" />
@@ -377,7 +377,7 @@ export const Methodology: React.FC<MethodologyProps> = ({ onEnrolClick }) => {
           <button
             onClick={handleNext}
             aria-label="Next Shift"
-            className="w-11 h-11 rounded-full border border-stone-300 bg-white hover:border-[#BDA047] hover:bg-[#BDA047] hover:text-white text-stone-700 flex items-center justify-center transition-all duration-200 shadow-sm active:scale-95"
+            className="w-10 h-10 sm:w-11 sm:h-11 rounded-full border border-stone-300 bg-white hover:border-[#BDA047] hover:bg-[#BDA047] hover:text-white text-stone-700 flex items-center justify-center transition-all duration-200 shadow-sm active:scale-95 shrink-0"
           >
             <ChevronRight className="w-5 h-5" />
           </button>

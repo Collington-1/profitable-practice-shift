@@ -45,13 +45,10 @@ export const Closeout: React.FC<CloseoutProps> = ({ onEnrolClick }) => {
         </div>
 
         {/* Discreet Legal & Copyright */}
-        <div className="pt-6 border-t border-white/10 text-xs text-stone-400 space-y-1.5">
+        <div className="pt-6 border-t border-white/10 text-xs text-stone-400">
           <p>
             © {new Date().getFullYear()} The Profitable Practice Shift™ &amp; The Profitable Practice Accelerator™. 
             All rights reserved.
-          </p>
-          <p className="text-stone-500 font-light">
-            Educational implementation programme for dental professionals. Results depend on practice context and execution consistency.
           </p>
         </div>
 
