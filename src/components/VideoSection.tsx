@@ -1,14 +1,25 @@
-import React, { useRef, useState } from 'react';
-import { Play } from 'lucide-react';
+import React, { useRef, useState, useEffect } from 'react';
+import { Volume2, VolumeX } from 'lucide-react';
 
 export const VideoSection: React.FC = () => {
   const videoRef = useRef<HTMLVideoElement>(null);
-  const [hasStarted, setHasStarted] = useState(false);
+  const [isMuted, setIsMuted] = useState(true);
 
-  const handleStartPlay = () => {
+  // Ensure autoplay starts reliably (browsers require muted for autoplay)
+  useEffect(() => {
     if (videoRef.current) {
-      videoRef.current.play();
-      setHasStarted(true);
+      videoRef.current.muted = true;
+      videoRef.current.play().catch(() => {
+        // Autoplay policy fallback
+      });
+    }
+  }, []);
+
+  const toggleMute = () => {
+    if (videoRef.current) {
+      const nextMuted = !videoRef.current.muted;
+      videoRef.current.muted = nextMuted;
+      setIsMuted(nextMuted);
     }
   };
 
@@ -41,30 +52,43 @@ export const VideoSection: React.FC = () => {
           <div className="relative w-full aspect-video rounded-2xl sm:rounded-3xl lg:rounded-[30px] wide:rounded-[38px] overflow-hidden bg-black flex items-center justify-center">
             <video
               ref={videoRef}
-              controls
+              autoPlay
+              muted
+              loop
               playsInline
-              preload="metadata"
+              controls
+              preload="auto"
               className="w-full h-full object-cover rounded-2xl sm:rounded-3xl lg:rounded-[30px] wide:rounded-[38px]"
-              onPlay={() => setHasStarted(true)}
+              onVolumeChange={() => {
+                if (videoRef.current) {
+                  setIsMuted(videoRef.current.muted || videoRef.current.volume === 0);
+                }
+              }}
             >
               <source src="/assets/video_Dr.%20Army.mp4" type="video/mp4" />
               <source src="/assets/video_Dr. Army.mp4" type="video/mp4" />
               Your browser does not support the video tag.
             </video>
 
-            {/* Custom Luxury Play Overlay Button before initial start */}
-            {!hasStarted && (
-              <div className="absolute inset-0 flex items-center justify-center bg-black/25 pointer-events-none transition-opacity duration-300">
-                <button
-                  type="button"
-                  onClick={handleStartPlay}
-                  aria-label="Play video"
-                  className="pointer-events-auto w-16 h-16 sm:w-20 sm:h-20 lg:w-24 lg:h-24 wide:w-28 wide:h-28 rounded-full bg-brand-gold text-brand-black flex items-center justify-center shadow-[0_0_35px_rgba(197,166,74,0.65)] hover:bg-brand-gold-light hover:scale-110 active:scale-95 transition-all duration-300 cursor-pointer"
-                >
-                  <Play className="w-7 h-7 sm:w-9 sm:h-9 lg:w-11 lg:h-11 wide:w-13 wide:h-13 fill-brand-black translate-x-0.5" />
-                </button>
-              </div>
-            )}
+            {/* Quick Unmute/Mute Toggle Badge in top corner (never overlaps bottom controls) */}
+            <button
+              type="button"
+              onClick={toggleMute}
+              aria-label={isMuted ? "Unmute audio" : "Mute audio"}
+              className="absolute top-3 right-3 sm:top-4 sm:right-4 z-20 flex items-center gap-2 px-3 sm:px-4 py-1.5 sm:py-2 rounded-full bg-black/80 backdrop-blur-md border border-brand-gold/50 text-brand-gold text-xs sm:text-sm font-medium hover:bg-black hover:border-brand-gold hover:scale-105 active:scale-95 transition-all shadow-xl cursor-pointer"
+            >
+              {isMuted ? (
+                <>
+                  <VolumeX className="w-3.5 h-3.5 sm:w-4 sm:h-4 text-brand-gold animate-pulse" />
+                  <span className="tracking-wide">Tap for Sound</span>
+                </>
+              ) : (
+                <>
+                  <Volume2 className="w-3.5 h-3.5 sm:w-4 sm:h-4 text-brand-gold" />
+                  <span className="tracking-wide">Sound On</span>
+                </>
+              )}
+            </button>
           </div>
         </div>
       </div>

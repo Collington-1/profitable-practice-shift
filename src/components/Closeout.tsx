@@ -1,5 +1,5 @@
 import React from 'react';
-import { ArrowRight } from 'lucide-react';
+import { ArrowRight, Phone } from 'lucide-react';
 
 interface CloseoutProps {
   onEnrolClick?: () => void;
@@ -34,14 +34,32 @@ export const Closeout: React.FC<CloseoutProps> = ({ onEnrolClick }) => {
         </p>
 
         {/* Single CTA Button with title "Enroll Now" */}
-        <div className="flex justify-center mb-12 wide:mb-16">
+        <div className="flex justify-center mb-10 sm:mb-12">
           <button
             onClick={scrollToInvestment}
-            className="inline-flex items-center justify-center gap-2 px-8 wide:px-10 py-4 wide:py-5 rounded-full text-xs wide:text-sm uppercase tracking-widest font-bold text-stone-950 bg-[#BDA047] hover:bg-[#A98E3A] transition-all shadow-xl hover:scale-105 active:scale-95"
+            className="inline-flex items-center justify-center gap-2 px-8 wide:px-10 py-4 wide:py-5 rounded-full text-xs wide:text-sm uppercase tracking-widest font-bold text-stone-950 bg-[#BDA047] hover:bg-[#A98E3A] transition-all shadow-xl hover:scale-105 active:scale-95 cursor-pointer"
           >
             <span>Enroll Now</span>
             <ArrowRight className="w-4 h-4" />
           </button>
+        </div>
+
+        {/* Support & Direct Helpline for any enquiries/issues */}
+        <div className="mb-12 wide:mb-16 flex flex-col items-center justify-center">
+          <div className="inline-flex flex-col sm:flex-row items-center gap-2.5 sm:gap-4 px-6 sm:px-8 py-3.5 sm:py-4 rounded-full bg-white/[0.04] border border-white/10 hover:border-[#BDA047]/50 transition-all duration-300 shadow-xl group">
+            <div className="flex items-center gap-2.5 text-xs sm:text-sm text-stone-300">
+              <div className="w-7 h-7 rounded-full bg-[#BDA047]/15 flex items-center justify-center text-[#BDA047]">
+                <Phone className="w-3.5 h-3.5" />
+              </div>
+              <span>Have questions or need assistance? Call our direct helpline:</span>
+            </div>
+            <a
+              href="tel:0916999011"
+              className="inline-flex items-center gap-1.5 text-sm sm:text-base font-bold text-[#BDA047] hover:text-[#D6BA62] transition-colors tracking-wide underline underline-offset-4 decoration-[#BDA047]/40 hover:decoration-[#BDA047]"
+            >
+              <span>0916 999 011</span>
+            </a>
+          </div>
         </div>
 
         {/* Discreet Legal & Copyright */}
