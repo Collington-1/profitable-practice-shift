@@ -38,8 +38,8 @@ export const Hero: React.FC<HeroProps> = ({ onEnrolClick }) => {
         <div className="absolute bottom-0 right-1/3 w-[350px] h-[350px] rounded-full bg-brand-gold/[0.025] blur-[100px]" />
       </div>
 
-      <div className="max-w-7xl wide:max-w-wide mx-auto px-5 sm:px-6 lg:px-8 wide:px-16 relative z-10 w-full">
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-14 wide:gap-20 items-center">
+      <div className="w-full px-5 sm:px-8 lg:px-12 xl:px-16 wide:px-24 relative z-10">
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-14 wide:gap-20 items-center max-w-[1600px] wide:max-w-wide mx-auto w-full">
           
           {/* Left Column: Bold, Simple, Smart Headline & Buttons */}
           <div className="lg:col-span-7 flex flex-col text-left space-y-6 wide:space-y-8">

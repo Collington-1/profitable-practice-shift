@@ -41,9 +41,9 @@ export const VideoSection: React.FC = () => {
         <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] sm:w-[800px] wide:w-[1100px] h-[350px] sm:h-[450px] rounded-full bg-brand-gold/[0.06] blur-[120px]" />
       </div>
 
-      <div className="max-w-5xl wide:max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 wide:px-16 relative">
+      <div className="w-full px-4 sm:px-8 lg:px-12 xl:px-16 wide:px-24 relative">
         {/* Bold Container with rounded edges placed directly on top of the black & white intersection */}
-        <div className="relative group rounded-2xl sm:rounded-3xl lg:rounded-[32px] wide:rounded-[40px] p-[2px] bg-gradient-to-b from-[#D6BA62] via-[#C5A64A] to-[#9E802A] shadow-[0_25px_60px_-15px_rgba(0,0,0,0.55),0_0_40px_rgba(197,166,74,0.22)] transition-transform duration-500 hover:scale-[1.008]">
+        <div className="relative group max-w-5xl xl:max-w-6xl 2xl:max-w-7xl wide:max-w-wide mx-auto rounded-2xl sm:rounded-3xl lg:rounded-[32px] wide:rounded-[40px] p-[2px] bg-gradient-to-b from-[#D6BA62] via-[#C5A64A] to-[#9E802A] shadow-[0_25px_60px_-15px_rgba(0,0,0,0.55),0_0_40px_rgba(197,166,74,0.22)] transition-transform duration-500 hover:scale-[1.008]">
           
           {/* Subtle outer glow on hover */}
           <div className="absolute -inset-1 rounded-2xl sm:rounded-3xl lg:rounded-[34px] wide:rounded-[42px] bg-brand-gold/25 blur-xl opacity-50 group-hover:opacity-85 transition-opacity duration-700 pointer-events-none" />

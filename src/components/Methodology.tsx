@@ -203,7 +203,7 @@ export const Methodology: React.FC<MethodologyProps> = ({ onEnrolClick }) => {
       {/* Soft warm luxury ambient background glow */}
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[900px] h-[550px] rounded-full bg-[#BDA047]/[0.035] blur-[160px] pointer-events-none" />
 
-      <div className="max-w-7xl wide:max-w-wide mx-auto px-4 sm:px-6 lg:px-8 wide:px-16 relative z-10 w-full">
+      <div className="w-full px-4 sm:px-8 lg:px-12 xl:px-16 wide:px-24 relative z-10">
         
         {/* Section Header: Proper Spacing, No Badge, No Subtitle Clutter */}
         <div className="text-center max-w-4xl wide:max-w-5xl mx-auto mb-16 sm:mb-20 lg:mb-24 px-4">
@@ -233,7 +233,7 @@ export const Methodology: React.FC<MethodologyProps> = ({ onEnrolClick }) => {
             handleTouchEnd();
           }}
         >
-          <div className="relative w-full max-w-7xl wide:max-w-wide mx-auto flex items-center justify-center h-[420px] sm:h-[480px] lg:h-[540px] wide:h-[620px]">
+          <div className="relative w-full max-w-[1600px] wide:max-w-wide mx-auto flex items-center justify-center h-[420px] sm:h-[480px] lg:h-[540px] wide:h-[620px]">
             {extendedShifts.map((shift, idx) => {
               // Distance relative to active virtualIndex
               const dist = idx - virtualIndex;

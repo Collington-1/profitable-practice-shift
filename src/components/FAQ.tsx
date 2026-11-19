@@ -18,7 +18,7 @@ export const FAQ: React.FC = () => {
 
   return (
     <section id="faqs" className="py-16 lg:py-24 bg-[#0E0E0E] text-white border-t border-white/10 relative">
-      <div className="max-w-4xl wide:max-w-6xl mx-auto px-5 sm:px-6 lg:px-8 wide:px-16">
+      <div className="w-full px-5 sm:px-8 lg:px-12 xl:px-16 wide:px-24">
         
         {/* Section Header */}
         <div className="text-center max-w-2xl wide:max-w-3xl mx-auto mb-10 lg:mb-14">
@@ -48,7 +48,7 @@ export const FAQ: React.FC = () => {
         </div>
 
         {/* FAQ Accordion List */}
-        <div className="space-y-3">
+        <div className="space-y-3 max-w-4xl xl:max-w-5xl wide:max-w-6xl mx-auto">
           {filteredFaqs.map((faq, index) => {
             const isOpen = openIndex === index;
 

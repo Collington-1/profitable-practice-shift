@@ -9,7 +9,7 @@ interface InvestmentProps {
 export const Investment: React.FC<InvestmentProps> = ({ onSelectPlan }) => {
   return (
     <section id="investment" className="py-16 lg:py-24 bg-[#0A0A0A] text-white relative">
-      <div className="max-w-7xl wide:max-w-wide mx-auto px-5 sm:px-6 lg:px-8 wide:px-16">
+      <div className="w-full px-5 sm:px-8 lg:px-12 xl:px-16 wide:px-24">
         
         {/* Section Header */}
         <div className="text-center max-w-3xl wide:max-w-4xl mx-auto mb-12 lg:mb-16">
@@ -34,7 +34,7 @@ export const Investment: React.FC<InvestmentProps> = ({ onSelectPlan }) => {
         </div>
 
         {/* 3-Column Pricing Cards (Faithful Recreation of Image 4 Reference) */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 lg:gap-8 wide:gap-12 items-stretch max-w-5xl wide:max-w-7xl mx-auto">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 lg:gap-8 wide:gap-12 items-stretch max-w-[1500px] wide:max-w-wide mx-auto w-full">
           {PROGRAMME_DATA.pricingPlans.map((plan) => {
             const isFeatured = plan.popular;
 

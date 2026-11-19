@@ -49,7 +49,7 @@ export const Problem: React.FC = () => {
         <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[700px] h-[500px] rounded-full bg-[#BDA047]/[0.025] blur-[140px]" />
       </div>
 
-      <div className="max-w-7xl wide:max-w-wide mx-auto px-5 sm:px-6 lg:px-8 wide:px-16 relative z-10 w-full">
+      <div className="w-full px-5 sm:px-8 lg:px-12 xl:px-16 wide:px-24 relative z-10">
         
         {/* Section Header - Bold & Clean (Depict Reference Style) */}
         <div className="text-center max-w-4xl mx-auto mb-16 sm:mb-20 lg:mb-24 px-2 sm:px-4">
@@ -65,7 +65,7 @@ export const Problem: React.FC = () => {
 
         {/* 4 Cards in Slant Form with Hover Straighten (Recreation of Depict Sample Image) */}
         <div className="relative pt-2 pb-8 lg:pb-14">
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-5 wide:gap-10 items-stretch max-w-6xl wide:max-w-wide mx-auto">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-6 xl:gap-8 wide:gap-10 items-stretch max-w-[1600px] wide:max-w-wide mx-auto w-full">
             {bottlenecks.map((item, idx) => {
               const isHovered = hoveredCard === idx;
 

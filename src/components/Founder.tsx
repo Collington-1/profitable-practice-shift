@@ -8,10 +8,10 @@ interface FounderProps {
 export const Founder: React.FC<FounderProps> = () => {
   return (
     <section id="about" className="py-20 lg:py-28 bg-[#0A0A0A] text-white relative">
-      <div className="max-w-7xl wide:max-w-wide mx-auto px-5 sm:px-6 lg:px-8 wide:px-16">
+      <div className="w-full px-5 sm:px-8 lg:px-12 xl:px-16 wide:px-24">
         
         {/* 3-Column Dark Luxury Panel (Carlos Reference Recreation) */}
-        <div className="bg-[#141414] rounded-3xl border border-white/10 p-6 sm:p-8 md:p-10 lg:p-12 wide:p-16 shadow-2xl relative overflow-hidden">
+        <div className="bg-[#141414] max-w-[1600px] wide:max-w-wide mx-auto rounded-3xl border border-white/10 p-6 sm:p-8 md:p-10 lg:p-12 wide:p-16 shadow-2xl relative overflow-hidden">
           
           <div className="grid grid-cols-1 md:grid-cols-12 gap-8 lg:gap-10 wide:gap-14 items-center">
             

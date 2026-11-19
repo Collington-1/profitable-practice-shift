@@ -3,7 +3,7 @@ import React from 'react';
 export const ValueBand: React.FC = () => {
   return (
     <section className="py-16 lg:py-20 bg-brand-ivory text-brand-ivory-text border-y border-brand-ivory-dark relative">
-      <div className="max-w-6xl mx-auto px-6 lg:px-8 text-center">
+      <div className="w-full px-6 lg:px-12 xl:px-16 text-center">
         
         <p className="text-xs uppercase tracking-[0.25em] font-semibold text-brand-gold-dark mb-4">
           The Practice Evolution
@@ -16,7 +16,7 @@ export const ValueBand: React.FC = () => {
         </blockquote>
 
         {/* 3 Horizontal Value Transformations */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 pt-8 border-t border-stone-300 text-left">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 pt-8 border-t border-stone-300 text-left max-w-6xl mx-auto">
           
           <div className="space-y-2">
             <span className="text-xs font-bold uppercase tracking-wider text-brand-gold-dark">

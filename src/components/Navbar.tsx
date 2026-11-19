@@ -42,7 +42,7 @@ export const Navbar: React.FC<NavbarProps> = ({ onEnrolClick }) => {
           : 'bg-transparent py-5'
       }`}
     >
-      <div className="max-w-7xl wide:max-w-wide mx-auto px-5 sm:px-6 lg:px-8 wide:px-16">
+      <div className="w-full px-5 sm:px-8 lg:px-12 xl:px-16 wide:px-24">
         <div className="flex items-center justify-between">
 
           {/* Logo & Identity */}

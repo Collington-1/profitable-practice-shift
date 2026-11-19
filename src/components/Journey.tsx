@@ -87,10 +87,10 @@ export const Journey: React.FC<JourneyProps> = () => {
       id="journey" 
       className="py-20 lg:py-28 bg-[#FAF7F2] text-[#141414] border-t border-stone-200 relative overflow-hidden"
     >
-      <div className="max-w-7xl wide:max-w-wide mx-auto px-4 sm:px-6 lg:px-8 wide:px-16 relative z-10 w-full">
+      <div className="w-full px-4 sm:px-8 lg:px-12 xl:px-16 wide:px-24 relative z-10">
         
         {/* Main 2-Column Section (Exact Recreation of Image 1 Reference) */}
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 wide:gap-16 items-start mb-14">
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 wide:gap-16 items-start mb-14 max-w-[1600px] wide:max-w-wide mx-auto w-full">
           
           {/* Left Column: Heading & Large Showcase Image Card */}
           <div className="lg:col-span-5 space-y-5 lg:space-y-6 text-left">
